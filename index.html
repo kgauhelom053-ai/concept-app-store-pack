@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Stride — Concept App Store Graphics Pack</title>
+<meta name="description" content="Concept App Store / Google Play graphics pack for a fictional habit tracker. Sample portfolio work by Kgauhelo Mokoena.">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#0B1220;--cream:#F7F4F0;--coral:#FF5C35;--muted:#64748B}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"DM Sans",system-ui,sans-serif;background:var(--cream);color:var(--ink);-webkit-font-smoothing:antialiased;line-height:1.5}
+.wrap{width:min(1100px,92vw);margin:0 auto;padding:48px 0 80px}
+.banner{background:var(--ink);color:#fff;padding:14px 20px;text-align:center;font-size:.9rem;font-weight:600}
+.banner span{color:var(--coral)}
+header{display:flex;gap:20px;align-items:center;margin:40px 0 28px;flex-wrap:wrap}
+.icon{width:72px;height:72px;border-radius:18px;box-shadow:0 8px 24px -8px rgba(255,92,53,.5)}
+h1{font-size:clamp(1.8rem,4vw,2.6rem);letter-spacing:-.04em;font-weight:800;line-height:1.1}
+.sub{color:var(--muted);margin-top:6px;font-weight:500}
+.meta{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0 40px}
+.chip{padding:8px 14px;border-radius:999px;background:#fff;border:1px solid rgba(11,18,32,.08);font-size:.85rem;font-weight:600;color:var(--muted)}
+.chip b{color:var(--ink)}
+h2{font-size:1.25rem;font-weight:800;letter-spacing:-.02em;margin:36px 0 16px}
+.shots{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}
+.shots figure{background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 8px 30px -16px rgba(11,18,32,.25);border:1px solid rgba(11,18,32,.06)}
+.shots img{width:100%;display:block}
+.shots figcaption{padding:10px 12px 14px;font-size:.75rem;font-weight:600;color:var(--muted);text-align:center}
+.feature{margin-top:12px}
+.feature img{width:100%;max-width:720px;border-radius:12px;display:block;box-shadow:0 8px 30px -12px rgba(11,18,32,.3)}
+.cover{margin-top:12px}
+.cover img{width:100%;border-radius:12px;display:block;box-shadow:0 8px 30px -12px rgba(11,18,32,.3)}
+footer{margin-top:56px;padding-top:24px;border-top:1px solid rgba(11,18,32,.1);color:var(--muted);font-size:.9rem}
+footer strong{color:var(--ink)}
+@media(max-width:800px){.shots{grid-template-columns:repeat(2,1fr)}.shots figure:last-child{grid-column:span 2;max-width:50%;margin:0 auto}}
+</style>
+</head>
+<body>
+<div class="banner"><span>Concept</span> — sample App Store / Google Play graphics pack · not a real product</div>
+<div class="wrap">
+  <header>
+    <img class="icon" src="images/app-icon-1024.png" alt="Stride app icon">
+    <div>
+      <h1>Stride — store graphics pack</h1>
+      <p class="sub">Fictional habit tracker · concept portfolio piece</p>
+    </div>
+  </header>
+  <div class="meta">
+    <span class="chip"><b>5</b> phone screenshots · 1290×2796</span>
+    <span class="chip"><b>Feature</b> graphic · 1024×500</span>
+    <span class="chip"><b>Icon</b> · 1024×1024</span>
+    <span class="chip">Brand colour <b>#FF5C35</b></span>
+  </div>
+
+  <h2>Phone screenshots</h2>
+  <div class="shots">
+    <figure><img src="images/screenshot-01-today.png" alt="Today screen"><figcaption>Today</figcaption></figure>
+    <figure><img src="images/screenshot-02-streaks.png" alt="Streaks screen"><figcaption>Streaks</figcaption></figure>
+    <figure><img src="images/screenshot-03-add.png" alt="Add habit screen"><figcaption>New habit</figcaption></figure>
+    <figure><img src="images/screenshot-04-insights.png" alt="Insights screen"><figcaption>Insights</figcaption></figure>
+    <figure><img src="images/screenshot-05-reminders.png" alt="Reminders screen"><figcaption>Reminders</figcaption></figure>
+  </div>
+
+  <h2>Google Play feature graphic</h2>
+  <div class="feature"><img src="images/feature-graphic-1024x500.png" alt="Feature graphic"></div>
+
+  <h2>Portfolio cover</h2>
+  <div class="cover"><img src="images/overview-cover-1600x1200.png" alt="Overview cover"></div>
+
+  <footer>
+    <p><strong>Concept design — not a real client or product.</strong></p>
+    <p>Designed by Kgauhelo Mokoena. All UI and graphics are original concept work.</p>
+  </footer>
+</div>
+</body>
+</html>
